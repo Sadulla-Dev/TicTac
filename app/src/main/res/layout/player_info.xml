@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="10dp"
+    android:layout_margin="10dp"
+    android:background="@color/white">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <TextView
+            android:padding="15dp"
+            android:background="#009BE8"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="Players Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="First Player : "
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"
+                android:textSize="18sp"
+                android:textColor="@color/green"
+                android:textStyle="bold|normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:id="@+id/firstPl1"
+                android:hint="Player1"
+                android:layout_marginStart="15dp"
+                android:textStyle="normal"
+                android:ellipsize="end"
+                android:layout_marginEnd="15dp"
+                android:maxLines="1"
+                android:maxLength="7"
+                android:background="@drawable/bac_dialog"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:text=""
+                android:textSize="19sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Second Player : "
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"
+                android:textSize="18sp"
+                android:textColor="@color/red"
+                android:textStyle="bold|normal"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:id="@+id/firstPl2"
+                android:hint="Player2"
+                android:background="@drawable/bac_dialog"
+                android:padding="10dp"
+                android:ellipsize="end"
+                android:layout_marginBottom="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginTop="5dp"
+                android:maxLines="1"
+                android:maxLength="7"
+                android:text=""
+                android:layout_marginStart="15dp"
+                android:textStyle="normal"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/cannel_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="50dp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/bac_button"
+                    android:text="Cancel"/>
+
+
+
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/add_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/bac_button"
+                    android:layout_weight="1"
+                    android:text="Add" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

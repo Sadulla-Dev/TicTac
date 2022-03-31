@@ -89,11 +89,14 @@ class MainActivity : AppCompatActivity() , View.OnClickListener {
             mAlertDialog.dismiss()
         }
         mDialogView.cannel_btn.setOnClickListener {
-            playerFirst = playerFirst
-            playerSecond = playerSecond
-
-            texviewP1.text = playerFirst
-            texviewP2.text = playerSecond
+            if (playerFirst.isEmpty() && playerSecond.isEmpty()){
+                texviewP1.text = playerFirst
+                texviewP2.text = playerSecond
+            }
+            else{
+                playerFirst = "Player1"
+                playerSecond = "Player2"
+            }
             mAlertDialog.dismiss()
         }
 

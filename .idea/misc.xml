@@ -10,6 +10,8 @@
         <entry key="app/src/main/res/layout/player2_win.xml" value="0.18819655521783182" />
         <entry key="app/src/main/res/layout/player_draw.xml" value="0.2323234473076756" />
         <entry key="app/src/main/res/layout/player_info.xml" value="0.2811229631012562" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.145" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.145" />
       </map>
     </option>
   </component>

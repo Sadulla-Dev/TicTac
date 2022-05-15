@@ -162,10 +162,10 @@ class HomeFragment : Fragment(), View.OnClickListener {
         }
         if (player1Turn) {
             (v as Button).setText("X")
-            v.setTextColor(resources.getColor(R.color.red))
+            v.setTextColor(resources.getColor(R.color.green))
         } else {
             (v as Button).setText("O")
-            v.setTextColor(resources.getColor(R.color.green))
+            v.setTextColor(resources.getColor(R.color.red))
         }
         roundCount++
         if (checkForWin()) {
